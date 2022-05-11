@@ -1,0 +1,5 @@
+{
+    "watch": ["./routes/*","./config/*","./models/*","./utils/*"],
+    "ext": "ts,json",
+    "exec": "npx tsc && node dist/index.js"     
+}
